@@ -17,6 +17,10 @@ For this lab we needed:
 
 First, connect the Arduino RedBoard to the computer and run Arduino IDE on the computer. Then, import the blink program that is a sample program on Arduino IDE. This program is displayed below:
 
+<p align="center">
+  <img src="https://github.com/hrma240/Lab-5/blob/main/Screenshot%202024-02-15%20at%2010.59.02%20AM.png">
+</p>
+
 Next, build a circuit with the 330 &Omega; resistor and LED in series.
 
 Run the program through the circuit to make the LED blink. The LED will turn on for one second then turn off for one second and repeat the cycle continuously with the code above. We then changed the delay in the code until the LED was blinking so fast that it looked as though it was constantly illuminated. We recorded this value and discuss it in our results section. 
@@ -25,9 +29,17 @@ Run the program through the circuit to make the LED blink. The LED will turn on 
 
 Keep the Arduino RedBoard connected to the computer and open the Analog Read Serial Program that is a sample program on Arduino IDE.
 
+<p align="center">
+  <img src="https://github.com/hrma240/Lab-5/blob/main/Screenshot%202024-02-15%20at%2011.01.42%20AM.png">
+</p>
+
 Build the following circuit with a 10 k&Omega; potentiometer in series with an LED to control the blinking rate of the LED with the changing resistance of the potentiometer. Connect the variable resistance pin of the potentiometer to A0 of the RedBoard. 
 
 Then, turn on the serial monitor to make sure the program is running correctly. We then edited the code so that the LED blinking time rate is the value read from the potentiometer. We made the delay of the LED equal the sensorValue read in the potentiometer.
+
+<p align="center">
+  <img src="https://github.com/hrma240/Lab-5/blob/main/Screenshot%202024-02-15%20at%2011.02.46%20AM.png">
+</p>
 
 With this code, the blinking rate of the LED will change as we adjust the resistance in the potentiometer. 
 
@@ -39,11 +51,19 @@ We used the same code that we used to control the blinking rate of the LED with 
 
 We then created code that would turn on the LED only when the lighting was dark. For this code, we used the value that the serial monitor read when it was very bright, and made an if/else statement that would keep the LED off if the sensor value was above this value (900), and would turn the LED on if the sensor value went below 900. We put this in a loop so that the program would run continuously and we would have a circuit that acted as a nightlight.
 
+<p align="center">
+  <img src="https://github.com/hrma240/Lab-5/blob/main/Screenshot%202024-02-15%20at%2011.04.50%20AM.png">
+</p>
+
 **Part Four:** LED dimmer using PWM 
 
 Keep the RedBoard connected to the computer with Arduino IDE running. We then built the same circuit that we used in part two of this lab with the 10 k&Omega; potentiometer in series with the LED. However, we changed the LED pin to one that is PWM capable to be able to look at the signal through the LED on an oscilloscope. 
 
 We then edited the blink sample program again so that 
+
+<p align="center">
+  <img src="https://github.com/hrma240/Lab-5/blob/main/Screenshot%202024-02-15%20at%2011.05.53%20AM.png">
+</p>
 
 
 ## Results:
