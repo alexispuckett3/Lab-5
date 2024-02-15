@@ -4,7 +4,11 @@
 February 15, 2024
 
 ## Project Summary:
+The purpose of this lab is to obtain knowledge of how to use microcontrollers. This lab is allowing us to obtain this knowledge by using various circuits and components. This lab allowed the use of the Arduino as the microcontroller, with that being said Arduino IDE was also needed in this lab in order to help gain more knowledge on how to use microcontrollers. The Arduino system allows us to be able to program and use different types of microcontrollers. With this knowledge, this lab will and has allowed us to gain a better knowledge of how to use and code in the Arduino system as well as learn about microcontrollers. In this lab, the use of a Light Emitting Diode (LED) will allow us to see how our code in Arduino IDE is working and how it is shown throughout the circuits that are constructed. In partnership with the LED, a photoresistor is also used. This allows the circuit's resistance to change based on the amount of light that is being sensed and detected by it. Finally, Pulse Width Modulation (PWM) is used. PWM is a way to generate analog signals from the digital code that we will be creating in the lab. This can be done by the PWM switching on and off, which represents the new signal as well as informs us on what the duty cycle (percentage of time the signal is on) is. All of these factors, components, and circuits will allow us to obtain a better understanding of microcontrollers as well as the individual components themselves.
 
+ 
+
+ 
 ## Design and Methods:
 
 For this lab we needed:
