@@ -55,6 +55,8 @@ We then created code that would turn on the LED only when the lighting was dark.
   <img src="https://github.com/hrma240/Lab-5/blob/main/Screenshot%202024-02-15%20at%2011.04.50%20AM.png">
 </p>
 
+We then replaced the 10 k&Omega; resistor in this circuit with another LED and observed what happened as the light levels changed. 
+
 **Part Four:** LED dimmer using PWM 
 
 Keep the RedBoard connected to the computer with Arduino IDE running. We then built the same circuit that we used in part two of this lab with the 10 k&Omega; potentiometer in series with the LED. However, we changed the LED pin to one that is PWM capable to be able to look at the signal through the LED on an oscilloscope. 
@@ -69,22 +71,27 @@ We then edited the blink sample program again so that
 ## Results:
 
 **Part One:** 
-What does this first program do?
 
-What are the major sections of the computer program and what does each section do?
+What does this first program do? The blink program turns on the LED and leaves it on for a set time period and then turns it off for a set time period. This cycle is repeated in the loop.
 
-What is the value of your delay when the light appears to stay consistently illuminated? What field may this "persistence of vision" play a greater role in?
+What are the major sections of the computer program and what does each section do? The first section is the void setup with the initialization of the digital pin of the LED and the second section is the void loop which puts whatever code is in that section in a loop. In this program, the code in that section is turning the pin on and off. 
+
+What is the value of your delay when the light appears to stay consistently illuminated? The value of delay when the light appears to stay consistently illuminated was a delay of 10 which is equal to 0.01 seconds.
+
+What field may this "persistence of vision" play a greater role in?
 
 **Part Two:** 
-What is the difference between an analog and digital signal?
+
+What is the difference between an analog and digital signal? Analog signals are continuous and can take on infinite values while digital signals can only take on a certain number of values, such as on and off. Digital signals are discrete. 
 
 List a few examples of real-world examples that can be described by an analog signal?
 
-What are the two states which can be conveyed by a digital signal?
+What are the two states which can be conveyed by a digital signal? 
 
 What happens to the Serial Monitor Refresh rate as you move the potentiometer to control the LED blinking time?
 
 **Part Three:** 
+
 Does the LED turn on immediately after blocking the light? What about when you remove the object blocking the light, does the LED turn off immediately?
 
 What happens when you place your finger over the photoresistor?
