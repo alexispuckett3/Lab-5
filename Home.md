@@ -31,7 +31,7 @@ Then, turn on the serial monitor to make sure the program is running correctly. 
 
 With this code, the blinking rate of the LED will change as we adjust the resistance in the potentiometer. 
 
-**Part Three: ** Controlling an LED with a photoresistor
+**Part Three:** Controlling an LED with a photoresistor
 
 Keep the RedBoard connected to the computer and build a circuit with a photoresistor in series with a 10 k&Omega; resistor and an LED. 
 
@@ -48,13 +48,15 @@ We then edited the blink sample program again so that
 
 ## Results:
 
-**Part One:** What does this first program do?
+**Part One:** 
+What does this first program do?
 
 What are the major sections of the computer program and what does each section do?
 
 What is the value of your delay when the light appears to stay consistently illuminated? What field may this "persistence of vision" play a greater role in?
 
-**Part Two:** What is the difference between an analog and digital signal?
+**Part Two:** 
+What is the difference between an analog and digital signal?
 
 List a few examples of real-world examples that can be described by an analog signal?
 
@@ -62,7 +64,8 @@ What are the two states which can be conveyed by a digital signal?
 
 What happens to the Serial Monitor Refresh rate as you move the potentiometer to control the LED blinking time?
 
-**Part Three:** Does the LED turn on immediately after blocking the light? What about when you remove the object blocking the light, does the LED turn off immediately?
+**Part Three:** 
+Does the LED turn on immediately after blocking the light? What about when you remove the object blocking the light, does the LED turn off immediately?
 
 What happens when you place your finger over the photoresistor?
 
@@ -70,7 +73,8 @@ How does this help you visualize Ohm's Law?
 
 What were the minimum and maximum analog values for this circuit?
 
-**Part Four:** Connect the oscilloscope to the LED pin and observe and record what happens to the signal and the LED brightness when you turn the knob of the potentiometer.
+**Part Four:** 
+Connect the oscilloscope to the LED pin and observe and record what happens to the signal and the LED brightness when you turn the knob of the potentiometer.
 
 
 ## Conclusions:
