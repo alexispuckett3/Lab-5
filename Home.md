@@ -20,7 +20,7 @@ For this lab we needed:
 
 **Part One:** Blinking an LED
 
-First, connect the Arduino RedBoard to the computer and run Arduino IDE on the computer. Then, import the blink program that is a sample program on Arduino IDE. This program is displayed below:
+First, connect the Arduino RedBoard to the computer and run Arduino IDE on the computer. Then, import the blink program that is a sample program on Arduino IDE (Creative Commons Attribution ShareALike 3.0, 2016, Blink, https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink). This program is displayed below:
 
 <p align="center">
   <img src="https://github.com/hrma240/Lab-5/blob/main/Screenshot%202024-02-15%20at%2010.59.02%20AM.png">
@@ -36,7 +36,7 @@ Run the program through the circuit to make the LED blink. The LED will turn on 
 
 **Part Two:** Controlling an LED with a potentiometer
 
-Keep the Arduino RedBoard connected to the computer and open the Analog Read Serial Program that is a sample program on Arduino IDE.
+Keep the Arduino RedBoard connected to the computer and open the Analog Read Serial Program that is a sample program on Arduino IDE (Creative Commons Attribution ShareALike 3.0, 2016, Analog Read Serial, https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogReadSerial).
 
 <p align="center">
   <img src="https://github.com/hrma240/Lab-5/blob/main/Screenshot%202024-02-15%20at%2011.01.42%20AM.png">
@@ -86,12 +86,13 @@ Keep the RedBoard connected to the computer with Arduino IDE running. We then bu
   <img src="https://github.com/hrma240/Lab-5/blob/main/lab%205%20c%204.png">
 </p>
 
-We then edited the blink sample program again so that 
+We then edited the blink sample program again so that the value read from the potentiometer that is initially on the scale 0-1023 is mapped to a value on the scale from 0-255 because the Arduino RedBoard maps PWM with duty cycles of 0% to 100% on a scale from 0 to 255.
 
 <p align="center">
   <img src="https://github.com/hrma240/Lab-5/blob/main/Screenshot%202024-02-15%20at%2011.05.53%20AM.png">
 </p>
 
+We then connected the LED to the oscilloscope to see the PWM signal as we changed the resistance of the potentiometer, thus changing the blink rate of the LED. 
 
 ## Results:
 
@@ -149,7 +150,7 @@ This helps us visualize Ohms Law, because as resistance in the photoresistor cha
 
 _What were the minimum and maximum analog values for this circuit?_
 
-The maximum analog value we found for this circuit was 946. 
+The maximum analog value we found for this circuit was 946 while the minimum was 25. 
 
 **Part Four:** 
 
@@ -165,6 +166,7 @@ _Connect the oscilloscope to the LED pin and observe and record what happens to 
   <img src="https://github.com/hrma240/Lab-5/blob/main/IMG_7813.jpg">
 </p>
 
+As we increased the value from 0 to 255, the duty cycle increased. 
 
 ## Conclusions:
 By the end of this lab, a better understanding of microcontrollers was obtained and learned. On top of this, the deeper observation and learning about LEDs and PWM's were obtained throughout the lab by constructing a series of differing circuits. By using the Arduino system we allowed ourselves to learn how to code and program different types of microcontrollers as well as learn how to write and create different codes. This allowed us to see how precise the Arduino IDE system is and how we must be descriptive and exact when it comes to coding the microcontrollers and other components as a whole. For example, the blink program turns on the LED and leaves it on for a set time period and then turns it off. Another learning example would be when using the photoresistor we noticed that the LED turns on immediately after blocking the light from the photoresistor, it begins blinking rapidly right away then, when the object was removed from the photoresistor, the LED blinking begins to slow down, allowing us to obtain the deeper knowledge on how to use these components. 
