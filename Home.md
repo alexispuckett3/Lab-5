@@ -166,7 +166,7 @@ _Connect the oscilloscope to the LED pin and observe and record what happens to 
   <img src="https://github.com/hrma240/Lab-5/blob/main/IMG_7813.jpg">
 </p>
 
-As we increased the value from 0 to 255, the duty cycle increased. 
+As we increased the value from 0 to 255 using the potentiometer, the duty cycle increased. The duty cycle is highest in the first image and lowest in the third image above. There is some noise in the second image shown in the fuzzy line in each period. The brightness of the LED increased as the duty cycle increased and it decreased as the duty cycle decreased. 
 
 ## Conclusions:
 By the end of this lab, a better understanding of microcontrollers was obtained and learned. On top of this, the deeper observation and learning about LEDs and PWM's were obtained throughout the lab by constructing a series of differing circuits. By using the Arduino system we allowed ourselves to learn how to code and program different types of microcontrollers as well as learn how to write and create different codes. This allowed us to see how precise the Arduino IDE system is and how we must be descriptive and exact when it comes to coding the microcontrollers and other components as a whole. For example, the blink program turns on the LED and leaves it on for a set time period and then turns it off. Another learning example would be when using the photoresistor we noticed that the LED turns on immediately after blocking the light from the photoresistor, it begins blinking rapidly right away then, when the object was removed from the photoresistor, the LED blinking begins to slow down, allowing us to obtain the deeper knowledge on how to use these components. 
