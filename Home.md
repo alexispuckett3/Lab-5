@@ -135,6 +135,16 @@ The maximum analog value we found for this circuit was 946.
 **Part Four:** 
 Connect the oscilloscope to the LED pin and observe and record what happens to the signal and the LED brightness when you turn the knob of the potentiometer.
 
+<p align="center">
+  <img src="https://github.com/hrma240/Lab-5/blob/main/IMG_7807%20(1).jpg">
+</p>
+<p align="center">
+  <img src="https://github.com/hrma240/Lab-5/blob/main/IMG_7809.jpg">
+</p>
+<p align="center">
+  <img src="https://github.com/hrma240/Lab-5/blob/main/IMG_7813.jpg">
+</p>
+
 
 ## Conclusions:
 By the end of this lab, a better understanding of microcontrollers was obtained and learned. On top of this, the deeper observation and learning about LEDs and PWM's were obtained throughout the lab by constructing a series of differing circuits. By using the Arduino system we allowed ourselves to learn how to code and program different types of microcontrollers as well as learn how to write and create different codes. This allowed us to see how precise the Arduino IDE system is and how we must be descriptive and exact when it comes to coding the microcontrollers and other components as a whole. 
