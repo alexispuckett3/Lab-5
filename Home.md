@@ -97,15 +97,15 @@ We then edited the blink sample program again so that
 
 **Part One:** 
 
-_What does this first program do? _
+_What does this first program do?_
 
 The blink program turns on the LED and leaves it on for a set time period and then turns it off for a set time period. This cycle is repeated in the loop.
 
-_What are the major sections of the computer program and what does each section do? _
+_What are the major sections of the computer program and what does each section do?_
 
 The first section is the void setup with the initialization of the digital pin of the LED and the second section is the void loop which puts whatever code is in that section in a loop. In this program, the code in that section is turning the pin on and off. 
 
-_What is the value of your delay when the light appears to stay consistently illuminated? _
+_What is the value of your delay when the light appears to stay consistently illuminated?_
 
 The value of delay when the light appears to stay consistently illuminated was a delay of 10 which is equal to 0.01 seconds.
 
@@ -113,19 +113,19 @@ _What field may this "persistence of vision" play a greater role in?_
 
 **Part Two:** 
 
-_What is the difference between an analog and digital signal? _
+_What is the difference between an analog and digital signal?_
 
 Analog signals are continuous and can take on infinite values while digital signals can only take on a certain number of values, such as on and off. Digital signals are discrete. 
 
 _List a few examples of real-world examples that can be described by an analog signal?_
 
-_What are the two states which can be conveyed by a digital signal? _
+_What are the two states which can be conveyed by a digital signal?_
 
 _What happens to the Serial Monitor Refresh rate as you move the potentiometer to control the LED blinking time?_
 
 **Part Three:** 
 
-_Does the LED turn on immediately after blocking the light? What about when you remove the object blocking the light, does the LED turn off immediately? _
+_Does the LED turn on immediately after blocking the light? What about when you remove the object blocking the light, does the LED turn off immediately?_
 
 We noticed that the LED turns on immediately after blocking the light from the photoresistor, it begins blinking rapidly right away. When the object is removed from the photoresistor, the LED blinking begins to slow down, but it takes a longer blink before returning to its steady blinking rate again. 
 
@@ -135,11 +135,11 @@ When we blocked the photoresistor with our finger, the LED blinked rapidly, but 
 
 When we changed the resistor with another LED and covered the photoresistor to block the light, the LEDs blinked one at a time. They blinked faster when the photoresistor was covered and they blinked slower when the photoresistor was uncovered. 
 
-_How does this help you visualize Ohm's Law? _
+_How does this help you visualize Ohm's Law?_
 
 This helps us visualize Ohms Law, because as resistance in the photoresistor changes, current across the LED changes inversely while the voltage in the circuit stays the same since the supply voltage from the computer remains constant. 
 
-_What were the minimum and maximum analog values for this circuit? _
+_What were the minimum and maximum analog values for this circuit?_
 
 The maximum analog value we found for this circuit was 946. 
 
