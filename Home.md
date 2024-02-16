@@ -111,17 +111,25 @@ The value of delay when the light appears to stay consistently illuminated was a
 
 _What field may this "persistence of vision" play a greater role in?_
 
+This persistence of vision that we see in the fast blinking of the LED that tricks our brain to believe it is constantly on can be seen in film, with pixels on screens and animation. Our brain makes us believe what we are seeing is a continuous image even if the light or image is actually changing very quickly. 
+
 **Part Two:** 
 
 _What is the difference between an analog and digital signal?_
 
 Analog signals are continuous and can take on infinite values while digital signals can only take on a certain number of values, such as on and off. Digital signals are discrete. 
 
-_List a few examples of real-world examples that can be described by an analog signal?_
+_List a few examples of real-world examples that can be described by an analog signal_
+
+Real world examples that can be described by an analog signal are temperature, color, time, brightness, and anything that can be described by an infinite number of values.
 
 _What are the two states which can be conveyed by a digital signal?_
 
+The majority of digital signals can only convey on and off.
+
 _What happens to the Serial Monitor Refresh rate as you move the potentiometer to control the LED blinking time?_
+
+As we turn the potentiometer to make the LED blink faster, the Serial Monitor Refresh rate increases, so the value pops up on the screen faster as the LED blinks faster. This rate slows down as the LED blinking slows down. 
 
 **Part Three:** 
 
