@@ -102,7 +102,10 @@ Does the LED turn on immediately after blocking the light? What about when you r
 We noticed that the LED turns on immediately after blocking the light from the photoresistor, it begins blinking rapidly right away. When the object is removed from the photoresistor, the LED blinking begins to slow down, but it takes a longer blink before returning to its steady blinking rate again. 
 
 
-What happens when you place your finger over the photoresistor? When we blocked the photoresistor with our finger, the LED blinked rapidly, but not as quickly as when we covered it with a more opaque object. The light from the room was able to still pass through our finger and hit the photoresist. 
+What happens when you place your finger over the photoresist? 
+
+
+When we blocked the photoresistor with our finger, the LED blinked rapidly, but not as quickly as when we covered it with a more opaque object. The light from the room was able to still pass through our finger and hit the photoresist. 
 
 
 When we changed the resistor with another LED and covered the photoresistor to block the light, the LEDs blinked one at a time. They blinked faster when the photoresistor was covered and they blinked slower when the photoresistor was uncovered. 
