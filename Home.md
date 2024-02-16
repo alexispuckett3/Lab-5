@@ -76,17 +76,29 @@ We then edited the blink sample program again so that
 
 **Part One:** 
 
-What does this first program do? The blink program turns on the LED and leaves it on for a set time period and then turns it off for a set time period. This cycle is repeated in the loop.
+What does this first program do? 
 
-What are the major sections of the computer program and what does each section do? The first section is the void setup with the initialization of the digital pin of the LED and the second section is the void loop which puts whatever code is in that section in a loop. In this program, the code in that section is turning the pin on and off. 
 
-What is the value of your delay when the light appears to stay consistently illuminated? The value of delay when the light appears to stay consistently illuminated was a delay of 10 which is equal to 0.01 seconds.
+The blink program turns on the LED and leaves it on for a set time period and then turns it off for a set time period. This cycle is repeated in the loop.
+
+What are the major sections of the computer program and what does each section do? 
+
+
+The first section is the void setup with the initialization of the digital pin of the LED and the second section is the void loop which puts whatever code is in that section in a loop. In this program, the code in that section is turning the pin on and off. 
+
+What is the value of your delay when the light appears to stay consistently illuminated? 
+
+
+The value of delay when the light appears to stay consistently illuminated was a delay of 10 which is equal to 0.01 seconds.
 
 What field may this "persistence of vision" play a greater role in?
 
 **Part Two:** 
 
-What is the difference between an analog and digital signal? Analog signals are continuous and can take on infinite values while digital signals can only take on a certain number of values, such as on and off. Digital signals are discrete. 
+What is the difference between an analog and digital signal? 
+
+
+Analog signals are continuous and can take on infinite values while digital signals can only take on a certain number of values, such as on and off. Digital signals are discrete. 
 
 List a few examples of real-world examples that can be described by an analog signal?
 
