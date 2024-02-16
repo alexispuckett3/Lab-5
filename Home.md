@@ -96,13 +96,15 @@ What happens to the Serial Monitor Refresh rate as you move the potentiometer to
 
 **Part Three:** 
 
-Does the LED turn on immediately after blocking the light? What about when you remove the object blocking the light, does the LED turn off immediately?
+Does the LED turn on immediately after blocking the light? What about when you remove the object blocking the light, does the LED turn off immediately? We noticed that the LED turns on immediately after blocking the light from the photoresistor, it begins blinking rapidly right away. When the object is removed from the photoresistor, the LED blinking begins to slow down, but it takes a longer blink before returning to its steady blinking rate again. 
 
-What happens when you place your finger over the photoresistor?
+What happens when you place your finger over the photoresistor? When we blocked the photoresistor with our finger, the LED blinked rapidly, but not as quickly as when we covered it with a more opaque object. The light from the room was able to still pass through our finger and hit the photoresistor. 
 
-How does this help you visualize Ohm's Law?
+When we changed the resistor with another LED and covered the photoresistor to block the light, the LEDs blinked one at a time. They blinked faster when the photoresistor was covered and they blinked slower when the photoresistor was uncovered. 
 
-What were the minimum and maximum analog values for this circuit?
+How does this help you visualize Ohm's Law? This helps us visualize Ohms Law, because as resistance in the photoresistor changes, current across the LED changes inversely while the voltage in the circuit stays the same since the supply voltage from the computer remains constant. 
+
+What were the minimum and maximum analog values for this circuit? The maximum analog value we found for this circuit was 946. 
 
 **Part Four:** 
 Connect the oscilloscope to the LED pin and observe and record what happens to the signal and the LED brightness when you turn the knob of the potentiometer.
