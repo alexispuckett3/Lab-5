@@ -112,7 +112,10 @@ How does this help you visualize Ohm's Law?
 
 This helps us visualize Ohms Law, because as resistance in the photoresistor changes, current across the LED changes inversely while the voltage in the circuit stays the same since the supply voltage from the computer remains constant. 
 
-What were the minimum and maximum analog values for this circuit? The maximum analog value we found for this circuit was 946. 
+What were the minimum and maximum analog values for this circuit? 
+
+
+The maximum analog value we found for this circuit was 946. 
 
 **Part Four:** 
 Connect the oscilloscope to the LED pin and observe and record what happens to the signal and the LED brightness when you turn the knob of the potentiometer.
